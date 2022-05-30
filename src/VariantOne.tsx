@@ -6,19 +6,20 @@ import { ControlPanel } from './ControlPanel';
 
 export const VariantOne = () => {
 
-  const initialX = JSON.parse(localStorage.getItem('KeyVariantOne') || '{}');
+  const initialX = JSON.parse(localStorage.getItem('KeyVariantOne') || '{"startX": 0, "maxX": 5}');
 
-  const [x, setX] = useState<typeX>(initialX || { startX: 0, maxX: 5 });
+
+  const [x, setX] = useState<typeX>(initialX);
   const [newX, setNewX] = useState<typeX>(x);
   const [error, setError] = useState<boolean>(false);
 
   return (
-    <div>
+    <div className='container'>
       <div className="App">
         <SetPanel
           setX={setX}
-          startX={newX}
-          setStartX={setNewX}
+          newX={newX}
+          setNewX={setNewX}
           error={error}
           setError={setError}
           localStorageKey="KeyVariantOne"

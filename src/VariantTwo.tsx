@@ -7,9 +7,9 @@ import { Button } from './Button';
 
 export const VariantTwo = () => {
 
-  const initialX = JSON.parse(localStorage.getItem('KeyVariantOTwo') || '{}');
+  const initialX = JSON.parse(localStorage.getItem('KeyVariantOTwo') || '{"startX": 0, "maxX": 5}');
 
-  const [x, setX] = useState<typeX>(initialX || { startX: 0, maxX: 5 });
+  const [x, setX] = useState<typeX>(initialX);
   const [newX, setNewX] = useState<typeX>(x);
   const [option, setOption] = useState<boolean>(false);
   const [error, setError] = useState<boolean>(false);
@@ -24,8 +24,8 @@ export const VariantTwo = () => {
       {option
         ? <SetPanel
           setX={(x) => setOptionHandler(x)}
-          startX={newX}
-          setStartX={setNewX}
+          newX={newX}
+          setNewX={setNewX}
           error={error}
           setError={setError}
           localStorageKey="KeyVariantOTwo"

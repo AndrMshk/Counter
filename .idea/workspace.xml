@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f203cac6-d96b-4d6e-b7f0-733bfde19efd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VariantOne/VariantTwoWithReducer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VariantOne/components/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VariantOne/components/ControlPanel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VariantOne/components/Counter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VariantOne/components/SetPanel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VariantOne/redux/localStorage.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VariantOne/redux/reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VariantOne/redux/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VariantTwo/VariantTwoWithReducer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VariantTwo/components/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VariantTwo/components/ControlPanel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VariantTwo/components/Counter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VariantTwo/components/SetPanel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VariantTwo/redux/localStorage.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VariantTwo/redux/reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VariantTwo/redux/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VariantWithReducer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VariantWithReducerNew.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bll/reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bll/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bllNew/reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bllNew/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bllNew/utils/local-storage-utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SetPanel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/SetPanel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VariantOne.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/VariantOne.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VariantTwo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/VariantTwo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="29qOxdL8QVQZ5LvA0jSUdiuMydz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="D:\Code\incubator\Counter\node_modules\typescript\lib" />
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f203cac6-d96b-4d6e-b7f0-733bfde19efd" name="Default Changelist" comment="" />
+      <created>1653837396357</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653837396357</updated>
+      <workItem from="1653837400804" duration="125000" />
+      <workItem from="1653837540286" duration="3856000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="669" y="343" key="#ESLint" timestamp="1653837419824">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="669" y="343" key="#ESLint/62.0.1474.864/-1280.0.1280.1024@62.0.1474.864" timestamp="1653837419824" />
+    <state width="1453" height="224" key="GridCell.Tab.0.bottom" timestamp="1653900318742">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1453" height="224" key="GridCell.Tab.0.bottom/62.0.1474.864/-1280.0.1280.1024@62.0.1474.864" timestamp="1653900318742" />
+    <state width="1453" height="224" key="GridCell.Tab.0.center" timestamp="1653900318742">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1453" height="224" key="GridCell.Tab.0.center/62.0.1474.864/-1280.0.1280.1024@62.0.1474.864" timestamp="1653900318742" />
+    <state width="1453" height="224" key="GridCell.Tab.0.left" timestamp="1653900318742">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1453" height="224" key="GridCell.Tab.0.left/62.0.1474.864/-1280.0.1280.1024@62.0.1474.864" timestamp="1653900318742" />
+    <state width="1453" height="224" key="GridCell.Tab.0.right" timestamp="1653900318742">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1453" height="224" key="GridCell.Tab.0.right/62.0.1474.864/-1280.0.1280.1024@62.0.1474.864" timestamp="1653900318742" />
+  </component>
+</project>

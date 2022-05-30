@@ -4,8 +4,8 @@ import { typeX } from './App';
 
 type SetPanelPropsType = {
   setX: (x: typeX) => void
-  startX: typeX
-  setStartX: (startX: typeX) => void
+  newX: typeX
+  setNewX: (startX: typeX) => void
   error: boolean
   setError: (error: boolean) => void
   localStorageKey: string
@@ -13,25 +13,25 @@ type SetPanelPropsType = {
 
 export const SetPanel: React.FC<SetPanelPropsType> = ({
   setX,
-  startX,
-  setStartX,
+  newX,
+  setNewX,
   error,
   setError,
   localStorageKey }) => {
 
     const changeXHandler = (set: number, xKey: string) => {
       if (xKey === 'startX') {
-        setError(set >= startX.maxX);
+        setError(set >= newX.maxX);
       }
       if (xKey === 'maxX') {
-        setError(set <= startX.startX);
+        setError(set <= newX.startX);
       }
-      setStartX({ ...startX, [xKey]: set });
+      setNewX({ ...newX, [xKey]: set });
     };
 
     const setNewXHandler = () => {
-      setX(startX);
-      localStorage.setItem(localStorageKey, JSON.stringify(startX));
+      setX(newX);
+      localStorage.setItem(localStorageKey, JSON.stringify(newX));
     };
 
     return (
@@ -41,7 +41,7 @@ export const SetPanel: React.FC<SetPanelPropsType> = ({
           type="number"
           min={0}
           className={error ? 'inputRed' : ''}
-          value={startX.startX}
+          value={newX.startX}
           onChange={(event) => changeXHandler(+event.currentTarget.value, 'startX')}
         />
         <span>max value: </span>
@@ -49,7 +49,7 @@ export const SetPanel: React.FC<SetPanelPropsType> = ({
           type="number"
           min={0}
           className={error ? 'inputRed' : ''}
-          value={startX.maxX}
+          value={newX.maxX}
           onChange={(event) => changeXHandler(+event.currentTarget.value, 'maxX')}
         />
         <Button name="SET" isDisabled={error} onClick={setNewXHandler} />

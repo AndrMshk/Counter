@@ -14,8 +14,21 @@ button{
   border-radius: 20px;
 }
 
+button:hover {
+  background-color: #fac2c2;
+}
+
 .root {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
 }
 
 .App {
