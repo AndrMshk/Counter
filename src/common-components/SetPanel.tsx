@@ -41,6 +41,7 @@ export const SetPanel: React.FC<SetPanelPropsType> = ({
         <input
           type="number"
           min={0}
+          max={newX.maxX}
           className={error ? 'inputRed' : ''}
           value={newX.startX}
           onChange={(event) => changeXHandler(+event.currentTarget.value, 'startX')}

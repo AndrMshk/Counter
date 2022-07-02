@@ -20,17 +20,17 @@ export type typeX = {
 function App() {
   return (
     <div className="root">
-      <h3>Counter useState 1: </h3>
+      <h3>Counter 1 with useState: </h3>
       <VariantOne />
-      <h3>Counter useState 2: </h3>
+      <h3>Counter 2 with useState: </h3>
       <VariantTwo />
       <hr style={{ width: '100%' }} />
-      <h3>Counter ThunkCreator with Reducer: </h3>
-      <Provider store={storeWithThunkCreator}><CounterWithThunkCreator /></Provider>
-      <hr style={{ width: '100%' }} />
-      <h3>Counter ActionCreator with Reducer: </h3>
-      <Provider store={storeWithActionCreator}><CounterWithActionCreator /></Provider>
-      <hr style={{ width: '100%' }} />
+      {/*<h3>Counter ThunkCreator with Reducer: </h3>*/}
+      {/*<Provider store={storeWithThunkCreator}><CounterWithThunkCreator /></Provider>*/}
+      {/*<hr style={{ width: '100%' }} />*/}
+      {/*<h3>Counter ActionCreator with Reducer: </h3>*/}
+      {/*<Provider store={storeWithActionCreator}><CounterWithActionCreator /></Provider>*/}
+      {/*<hr style={{ width: '100%' }} />*/}
       <h3>Counter 1 with Reducer: </h3>
       <Provider store={stateForVariantOne}><CounterWithReducerVariant1 /></Provider>
       <h3>Counter 2 with Reducer: </h3>

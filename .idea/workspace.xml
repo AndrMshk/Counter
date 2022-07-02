@@ -20,47 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f203cac6-d96b-4d6e-b7f0-733bfde19efd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CounterWithReducer/Counter_WithActionCreator/Counter_WithActionCreator.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CounterWithReducer/Counter_WithActionCreator/bll_WithActionCreator/reducer_WithActionCreator.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CounterWithReducer/Counter_WithActionCreator/bll_WithActionCreator/store_WithActionCreator.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CounterWithReducer/Counter_WithThunkCreator/bll_WithThunkCreator/store_WithThunkCreator.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/CounterWithRedux/VariantOne/components/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ControlPanel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common-components/ControlPanel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Counter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common-components/Counter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SetPanel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common-components/SetPanel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VariantOne.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/CounterSimple/VariantOne.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VariantOne/VariantOneWithReducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/CounterWithRedux/VariantOne/CounterWithReducerVariant1.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VariantOne/components/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/CounterWithRedux/VariantTwo/components/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VariantOne/components/ControlPanel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/CounterWithRedux/VariantOne/components/ControlPanel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VariantOne/components/Counter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/CounterWithRedux/VariantOne/components/Counter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VariantOne/components/SetPanel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/CounterWithRedux/VariantOne/components/SetPanel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VariantOne/redux/localStorage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/CounterWithRedux/VariantOne/redux/localStorage.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VariantOne/redux/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/CounterWithRedux/VariantOne/redux/reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VariantOne/redux/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/CounterWithRedux/VariantOne/redux/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VariantTwo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/CounterSimple/VariantTwo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VariantTwo/VariantTwoWithReducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/CounterWithRedux/VariantTwo/CounterWithReducerVariant2.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VariantTwo/components/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common-components/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VariantTwo/components/ControlPanel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/CounterWithRedux/VariantTwo/components/ControlPanel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VariantTwo/components/Counter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/CounterWithRedux/VariantTwo/components/Counter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VariantTwo/components/SetPanel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/CounterWithRedux/VariantTwo/components/SetPanel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VariantTwo/redux/localStorage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/CounterWithRedux/VariantTwo/redux/localStorage.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VariantTwo/redux/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/CounterWithRedux/VariantTwo/redux/reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VariantTwo/redux/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/CounterWithRedux/VariantTwo/redux/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VariantWithReducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/CounterWithReducer/Counter_WithThunkCreator/Counter_WithThunkCreator.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VariantWithReducerNew.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bll/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/CounterWithReducer/Counter_WithThunkCreator/bll_WithThunkCreator/reducer_WithThunkCreator.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bll/store.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bllNew/reducer.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bllNew/store.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bllNew/utils/local-storage-utils.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common-components/SetPanel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common-components/SetPanel.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +112,7 @@
       <workItem from="1653837540286" duration="3856000" />
       <workItem from="1653905516686" duration="254000" />
       <workItem from="1654159718923" duration="2820000" />
-      <workItem from="1656781414659" duration="6794000" />
+      <workItem from="1656781414659" duration="7220000" />
     </task>
     <servers />
   </component>
